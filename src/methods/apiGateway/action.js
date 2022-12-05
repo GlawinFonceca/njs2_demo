@@ -1,0 +1,11 @@
+class ApiGatewayAction extends baseAction {
+  async executeMethod() {
+    try {
+      this.setResponse("SUCCESS");
+      return { ALL_USERS: GLB.SOCKET_ID_ARRAY };
+    } catch (e) {
+      console.log("Error apiGateway =>", e);
+    }
+  }
+}
+module.exports = ApiGatewayAction;

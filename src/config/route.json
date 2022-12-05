@@ -1,0 +1,10 @@
+[
+  {
+    "path": "customRoute",
+    "methodName": "customRoutes"
+  },
+  {
+    "path": "testRoute",
+    "methodName": "customRoutes"
+  }
+]
